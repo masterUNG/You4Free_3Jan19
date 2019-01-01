@@ -189,6 +189,7 @@
                     android:scaleType="centerInside"
                     android:src="@drawable/a" />
 
+
                 <ImageButton
                     android:id="@+id/imbKaraoke_main"
                     android:layout_width="match_parent"
