@@ -2,110 +2,109 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="27"
-    build-mode="FULL"
+    build-mode="COLD"
     density="xxhdpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1545467034891"
-    token="-4364536699440919786"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="1546326174496"
+    token="-4711859263810008284"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="4878" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="5881" />
+        duration="0" />
     <task
         name="verifier"
-        duration="3474" />
+        duration="0" />
 
     <artifact
-        location="F:\apk\22dec18\You4Free\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        location="F:\androidapk\You4Free_22dec18\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
-    <artifact
-        location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\apk\22dec18\You4Free\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1545467034891"
+        timestamp="1546323048127"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="F:\apk\22dec18\You4Free\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="F:\apk\22dec18\You4Free\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="F:\apk\22dec18\You4Free\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1546325776789"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1546325853751"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1546326174496"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="F:\androidapk\You4Free_22dec18\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

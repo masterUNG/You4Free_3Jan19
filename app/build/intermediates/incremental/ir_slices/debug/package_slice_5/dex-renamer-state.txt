@@ -1,4 +1,4 @@
-#Sat Dec 22 15:24:45 ICT 2018
-base.0=F\:\\apk\\22dec18\\You4Free\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+#Tue Jan 01 13:56:24 ICT 2019
+base.0=F\:\\androidapk\\You4Free_22dec18\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
 path.0=classes.dex
 renamed.0=classes.dex

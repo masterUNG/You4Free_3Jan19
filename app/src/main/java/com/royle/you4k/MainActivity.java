@@ -84,6 +84,7 @@ public class MainActivity extends FragmentActivity {
     private ImageButton btnSearch;
 
     private ImageButton imbTv;
+    private ImageButton imbTv2;
     private ImageButton imbMovie;
     private ImageButton imbSeries;
     private ImageButton imbKaraoke;
@@ -142,8 +143,6 @@ public class MainActivity extends FragmentActivity {
             startActivity(new Intent(MainActivity.this, RegisterActivity.class));
 
         }
-
-
 
 
         btnRefill.setOnClickListener(new OnClickListener() {
@@ -328,6 +327,61 @@ public class MainActivity extends FragmentActivity {
             }
         });
 
+//        imbTv2.setOnClickListener(new OnClickListener() {
+//
+//            @Override
+//            public void onClick(View v) {
+//
+//                if (true) {
+//                    intent = new Intent(MainActivity.this, SeriesActivity.class);
+//                    startActivity(intent);
+//
+//                    // TODO Auto-generated method stub
+//                    try {
+//                        if (playerInstalledOrNot("com.mxtech.videoplayer.pro")) {
+//
+//                            Toast.makeText(getApplicationContext(), "มี MXPLAYER ในระบบเรียบร้อยแล้ว", Toast.LENGTH_SHORT).show();
+//
+//                        } else if (playerInstalledOrNot("com.mxtech.videoplayer.ad")) {
+//
+//                            Toast.makeText(getApplicationContext(), "มี MXPLAYER ในระบบเรียบร้อยแล้ว", Toast.LENGTH_SHORT).show();
+//
+//                        } else if (playerInstalledOrNot("com.mxtech.videoplayer.gold")) {
+//
+//                            Toast.makeText(getApplicationContext(), "มี GOLDPLAYER ในระบบเรียบร้อยแล้ว", Toast.LENGTH_SHORT).show();
+//
+//                        } else if (playerInstalledOrNot("com.android.gallery3d")) {
+//
+//
+//                        } else {
+//                            installgold atualizaApp = new installgold();
+//                            atualizaApp.setContext(getApplicationContext());
+//                            atualizaApp.execute("MXPlayer.apk");
+//                            Toast.makeText(getApplicationContext(), "กรุณารอสักครู่ และกด  >> ติดตั้ง <<  ..........", Toast.LENGTH_SHORT).show();
+//                            Intent intent = new Intent(MainActivity.this, Mxplayer.class);
+//                            startActivity(intent);
+//                        }
+//                    } catch (Exception e) {
+//                        // TODO Auto-generated catch block
+//                        e.printStackTrace();
+//                    }
+//
+//                } else {
+//                    startActivity(new Intent(MainActivity.this, LoginActivity.class));
+//
+//                }
+//
+//            }
+//        });
+
+//        imbTv2.setOnClickListener(new OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(new Intent(MainActivity.this, SportActivity.class));
+//            }
+//        });
+
+
         imbKaraoke.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -338,27 +392,6 @@ public class MainActivity extends FragmentActivity {
 
             }
 
-            // TODO Auto-generated method stub
-//                try {
-//                    if (playerInstalledOrNot("com.ais.mimo.AISOnAirTV")) {
-//
-//                        Toast.makeText(getApplicationContext(), "กรุณารอสักครู่...........", Toast.LENGTH_SHORT).show();
-//                        Intent ais = new Intent(Intent.ACTION_MAIN);
-//                        ais.setComponent(new ComponentName("com.ais.mimo.AISOnAirTV", "com.singtel.ais.Sports"));
-//                        ais.addCategory(Intent.CATEGORY_LAUNCHER);
-//                        startActivity(ais);
-//
-//                    } else {
-//                        installgold atualizaAppS = new installgold();
-//                        atualizaAppS.setContext(getApplicationContext());
-//                        atualizaAppS.execute("AISPLAYBOX.apk");
-//                        Toast.makeText(getApplicationContext(), "กรุณากด  >> ติดตั้ง <<  ...........", Toast.LENGTH_SHORT).show();
-//                    }
-//                } catch (Exception e) {
-//                    // TODO Auto-generated catch block
-//                    e.printStackTrace();
-//                }
-//            }
 
         });
 
@@ -467,7 +500,7 @@ public class MainActivity extends FragmentActivity {
             try {
                 String nameapp = (String) arg0[0];
                 String link = "http://pnsat.com/mx/" + nameapp;
-       //         String link = "http://4kmoviestar.com/New_Apk/" + nameapp;
+                //         String link = "http://4kmoviestar.com/New_Apk/" + nameapp;
                 URL url = new URL(link);
                 HttpURLConnection c = (HttpURLConnection) url.openConnection();
                 c.setRequestMethod("GET");
@@ -497,7 +530,6 @@ public class MainActivity extends FragmentActivity {
                 intent.setDataAndType(Uri.fromFile(new File("/mnt/sdcard/Download/" + nameapp)), "application/vnd.android.package-archive");
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK); // without this flag android returned a intent error!
                 context.startActivity(intent);
-
 
 
             } catch (Exception e) {
@@ -546,7 +578,6 @@ public class MainActivity extends FragmentActivity {
                 public void onClick(View v) {
 
 
-
                     if (true) {
                         Intent intent = new Intent(MainActivity.this, MovieDetailActivity.class);
                         intent.putExtra("name", arrData.get(0).getMovie_name());
@@ -575,7 +606,6 @@ public class MainActivity extends FragmentActivity {
 
                 @Override
                 public void onClick(View v) {
-
 
 
                     if (true) {
@@ -817,12 +847,12 @@ public class MainActivity extends FragmentActivity {
         }
     }
 
-    public static String loadFileAsString(String filePath) throws java.io.IOException{
+    public static String loadFileAsString(String filePath) throws java.io.IOException {
         StringBuffer fileData = new StringBuffer(1000);
         BufferedReader reader = new BufferedReader(new FileReader(filePath));
         char[] buf = new char[1024];
-        int numRead=0;
-        while((numRead=reader.read(buf)) != -1){
+        int numRead = 0;
+        while ((numRead = reader.read(buf)) != -1) {
             String readData = String.valueOf(buf, 0, numRead);
             fileData.append(readData);
         }
@@ -831,15 +861,16 @@ public class MainActivity extends FragmentActivity {
     }
 
     private static String macAddress = "";
+
     public static String getMacAddress(Context context) {
         WifiManager manager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
-        WifiInfo wifiInfo  = manager.getConnectionInfo();
+        WifiInfo wifiInfo = manager.getConnectionInfo();
         //String macAddress = info.getMacAddress();
 
         if (wifiInfo != null) {
             macAddress = wifiInfo.getMacAddress();
 
-        }else {
+        } else {
             try {
                 return loadFileAsString("/sys/class/net/eth0/address")
                         .toUpperCase().substring(0, 17);
@@ -851,7 +882,7 @@ public class MainActivity extends FragmentActivity {
         return macAddress;
     }
 
-    public static String getAndroidId(Context context){
+    public static String getAndroidId(Context context) {
         return Settings.Secure.getString(context.getContentResolver(),
                 Settings.Secure.ANDROID_ID);
     }
@@ -945,7 +976,7 @@ public class MainActivity extends FragmentActivity {
         dialog.show();
     }
 
-        public static void logout(Context context){
+    public static void logout(Context context) {
         DataStore dataStore = new DataStore(context);
         dataStore.SavedSharedPreference(DataStore.USER_ID, "");
         dataStore.SavedSharedPreference(DataStore.USER_NAME, "");
@@ -1005,7 +1036,7 @@ public class MainActivity extends FragmentActivity {
                         String code = editText.getText().toString().trim();
                         DataStore dataStore = new DataStore(getApplicationContext());
                         String userId = dataStore.LoadSharedPreference(DataStore.USER_ID, "");
-                        new RefillCodeTask(userId,code).execute();
+                        new RefillCodeTask(userId, code).execute();
                     }
                 });
             }

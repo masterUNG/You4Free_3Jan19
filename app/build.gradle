@@ -6,7 +6,7 @@ android {
         you4k {
             keyAlias 'you4k'
             keyPassword '555555'
-            storeFile file('F:/apk/22dec18/You4Free/keystore/you4k.jks')
+            storeFile file('F:/keystore/you4k.jks')
             storePassword '555555'
         }
     }

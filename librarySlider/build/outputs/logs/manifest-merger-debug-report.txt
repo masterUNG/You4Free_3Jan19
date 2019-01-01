@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\apk\22dec18\You4Free\librarySlider\src\main\AndroidManifest.xml:1:1-11:12
-INJECTED from F:\apk\22dec18\You4Free\librarySlider\src\main\AndroidManifest.xml:1:1-11:12
-INJECTED from F:\apk\22dec18\You4Free\librarySlider\src\main\AndroidManifest.xml:1:1-11:12
+ADDED from F:\androidapk\You4Free_22dec18\librarySlider\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from F:\androidapk\You4Free_22dec18\librarySlider\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from F:\androidapk\You4Free_22dec18\librarySlider\src\main\AndroidManifest.xml:1:1-11:12
 	package
-		ADDED from F:\apk\22dec18\You4Free\librarySlider\src\main\AndroidManifest.xml:2:5-42
-		INJECTED from F:\apk\22dec18\You4Free\librarySlider\src\main\AndroidManifest.xml
-		INJECTED from F:\apk\22dec18\You4Free\librarySlider\src\main\AndroidManifest.xml
+		ADDED from F:\androidapk\You4Free_22dec18\librarySlider\src\main\AndroidManifest.xml:2:5-42
+		INJECTED from F:\androidapk\You4Free_22dec18\librarySlider\src\main\AndroidManifest.xml
+		INJECTED from F:\androidapk\You4Free_22dec18\librarySlider\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\apk\22dec18\You4Free\librarySlider\src\main\AndroidManifest.xml:1:11-69
+		ADDED from F:\androidapk\You4Free_22dec18\librarySlider\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from F:\apk\22dec18\You4Free\librarySlider\src\main\AndroidManifest.xml:4:5-67
+ADDED from F:\androidapk\You4Free_22dec18\librarySlider\src\main\AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from F:\apk\22dec18\You4Free\librarySlider\src\main\AndroidManifest.xml:4:22-64
+		ADDED from F:\androidapk\You4Free_22dec18\librarySlider\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from F:\apk\22dec18\You4Free\librarySlider\src\main\AndroidManifest.xml:5:5-81
+ADDED from F:\androidapk\You4Free_22dec18\librarySlider\src\main\AndroidManifest.xml:5:5-81
 	android:name
-		ADDED from F:\apk\22dec18\You4Free\librarySlider\src\main\AndroidManifest.xml:5:22-78
+		ADDED from F:\androidapk\You4Free_22dec18\librarySlider\src\main\AndroidManifest.xml:5:22-78
 application
-ADDED from F:\apk\22dec18\You4Free\librarySlider\src\main\AndroidManifest.xml:7:5-9:56
+ADDED from F:\androidapk\You4Free_22dec18\librarySlider\src\main\AndroidManifest.xml:7:5-9:56
 	android:label
-		ADDED from F:\apk\22dec18\You4Free\librarySlider\src\main\AndroidManifest.xml:9:9-41
+		ADDED from F:\androidapk\You4Free_22dec18\librarySlider\src\main\AndroidManifest.xml:9:9-41
 	android:allowBackup
-		ADDED from F:\apk\22dec18\You4Free\librarySlider\src\main\AndroidManifest.xml:8:9-35
+		ADDED from F:\androidapk\You4Free_22dec18\librarySlider\src\main\AndroidManifest.xml:8:9-35
