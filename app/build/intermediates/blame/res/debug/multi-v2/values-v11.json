@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\androidapk\\You4Free_22dec18\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "F:\\apk\\2019\\You4Free_3Jan19\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "F:\\androidapk\\You4Free_22dec18\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "source": "F:\\apk\\2019\\You4Free_3Jan19\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",

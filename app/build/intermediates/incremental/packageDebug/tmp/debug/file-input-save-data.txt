@@ -1,18 +1,18 @@
 #Internal package file, do not edit.
-#Tue Jan 01 13:11:15 ICT 2019
+#Wed Jan 30 23:46:30 ICT 2019
 4.path=classes.dex
 8.set=DEX
 6.path=classes.dex
 0.baseType=DIRECTORY
 10.path=classes.dex
 5.baseType=DIRECTORY
-1.base=F\:\\androidapk\\You4Free_22dec18\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+1.base=F\:\\apk\\2019\\You4Free_3Jan19\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
 8.path=classes.dex
-3.base=F\:\\androidapk\\You4Free_22dec18\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
+3.base=F\:\\apk\\2019\\You4Free_3Jan19\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
 4.set=DEX
-5.base=F\:\\androidapk\\You4Free_22dec18\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\20
-7.base=F\:\\androidapk\\You4Free_22dec18\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
-9.base=F\:\\androidapk\\You4Free_22dec18\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
+5.base=F\:\\apk\\2019\\You4Free_3Jan19\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
+7.base=F\:\\apk\\2019\\You4Free_3Jan19\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+9.base=F\:\\apk\\2019\\You4Free_3Jan19\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
 1.baseType=DIRECTORY
 0.set=DEX
 6.baseType=DIRECTORY
@@ -25,16 +25,16 @@
 3.path=classes.dex
 10.set=DEX
 5.path=classes.dex
-0.base=F\:\\androidapk\\You4Free_22dec18\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+0.base=F\:\\apk\\2019\\You4Free_3Jan19\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
 7.path=classes.dex
 9.path=classes.dex
 6.set=DEX
-2.base=F\:\\androidapk\\You4Free_22dec18\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
-4.base=F\:\\androidapk\\You4Free_22dec18\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\21
+2.base=F\:\\apk\\2019\\You4Free_3Jan19\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
+4.base=F\:\\apk\\2019\\You4Free_3Jan19\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
 3.baseType=DIRECTORY
-6.base=F\:\\androidapk\\You4Free_22dec18\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
-10.base=F\:\\androidapk\\You4Free_22dec18\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
-8.base=F\:\\androidapk\\You4Free_22dec18\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+6.base=F\:\\apk\\2019\\You4Free_3Jan19\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\21
+10.base=F\:\\apk\\2019\\You4Free_3Jan19\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\20
+8.base=F\:\\apk\\2019\\You4Free_3Jan19\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
 2.set=DEX
 8.baseType=DIRECTORY
 9.set=DEX

@@ -90,7 +90,7 @@ public class SupportActivity extends Activity {
 						startActivity(qs);
 
 					} else {
-						Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://4kmoviestar.com/New_Apk/quicksupport.apk"));
+						Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://pnsat.com/mx/quicksupport.apk"));
 						i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 						startActivity(i);
 					}

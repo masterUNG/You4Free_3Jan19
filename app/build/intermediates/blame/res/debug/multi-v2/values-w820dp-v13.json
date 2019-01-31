@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\androidapk\\You4Free_22dec18\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "F:\\apk\\2019\\You4Free_3Jan19\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "F:\\androidapk\\You4Free_22dec18\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "F:\\apk\\2019\\You4Free_3Jan19\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",
