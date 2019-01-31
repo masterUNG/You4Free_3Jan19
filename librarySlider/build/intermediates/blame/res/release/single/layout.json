@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\build\\intermediates\\res\\merged\\release\\layout\\render_type_text.xml",
+        "source": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\src\\main\\res\\layout\\render_type_text.xml"
+    },
+    {
+        "merged": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\build\\intermediates\\res\\merged\\release\\layout\\render_type_default.xml",
+        "source": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\src\\main\\res\\layout\\render_type_default.xml"
+    },
+    {
+        "merged": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\build\\intermediates\\res\\merged\\release\\layout\\slider_layout.xml",
+        "source": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\src\\main\\res\\layout\\slider_layout.xml"
+    },
+    {
+        "merged": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\build\\intermediates\\res\\merged\\release\\layout\\indicator_layout.xml",
+        "source": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\src\\main\\res\\layout\\indicator_layout.xml"
+    }
+]

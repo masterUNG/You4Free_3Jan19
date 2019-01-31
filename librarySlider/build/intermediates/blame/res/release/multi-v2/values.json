@@ -1,0 +1,124 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+            "map": [
+                {
+                    "source": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "43",
+                        "endOffsets": "56"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "43",
+                        "endOffsets": "94"
+                    }
+                },
+                {
+                    "source": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "23,2,43",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1024,57,1920",
+                        "endLines": "41,21,61",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "1912,1016,2808"
+                    },
+                    "to": {
+                        "startLines": "3,22,42",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "99,974,1919",
+                        "endLines": "21,41,60",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "969,1914,2789"
+                    }
+                },
+                {
+                    "source": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\src\\main\\res\\values\\attrs.xml",
+                    "from": {
+                        "startLines": "37,2,80",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1640,57,3343",
+                        "endLines": "78,35,83",
+                        "endColumns": "24,24,24",
+                        "endOffsets": "3335,1632,3520"
+                    },
+                    "to": {
+                        "startLines": "61,103,137",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "2794,4453,6000",
+                        "endLines": "102,136,140",
+                        "endColumns": "24,24,24",
+                        "endOffsets": "4448,5995,6174"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "43",
+                        "endOffsets": "56"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "43",
+                        "endOffsets": "94"
+                    }
+                },
+                {
+                    "source": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "23,2,43",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1024,57,1920",
+                        "endLines": "41,21,61",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "1912,1016,2808"
+                    },
+                    "to": {
+                        "startLines": "3,22,42",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "99,974,1919",
+                        "endLines": "21,41,60",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "969,1914,2789"
+                    }
+                },
+                {
+                    "source": "F:\\apk\\2019\\You4Free_3Jan19\\librarySlider\\src\\main\\res\\values\\attrs.xml",
+                    "from": {
+                        "startLines": "37,2,80",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1640,57,3343",
+                        "endLines": "78,35,83",
+                        "endColumns": "24,24,24",
+                        "endOffsets": "3335,1632,3520"
+                    },
+                    "to": {
+                        "startLines": "61,103,137",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "2794,4453,6000",
+                        "endLines": "102,136,140",
+                        "endColumns": "24,24,24",
+                        "endOffsets": "4448,5995,6174"
+                    }
+                }
+            ]
+        }
+    ]
+}
